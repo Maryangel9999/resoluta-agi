@@ -1,0 +1,18 @@
+export function ProfilePage() {
+  return (
+    <div className="page-section">
+      <section className="panel">
+        <div className="panel-header">
+          <h3>Perfil e conta</h3>
+        </div>
+        <div className="profile-card">
+          <div className="avatar">RA</div>
+          <div>
+            <h4>Resoluta AGI</h4>
+            <p>Perfil administrativo da vertical financeira</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
